@@ -1,0 +1,519 @@
+body {
+  font-size: medium;
+  line-height: 28px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: normal;
+  box-sizing: border-box;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #060640;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 700;
+
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+h3 {
+  font-weight: 20px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+p {
+  color: #9090A7;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+a {
+  color: #828297;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.skyblue,
+.nav-link:hover,
+.nav-link.active {
+  color: #00E5CC !important;
+}
+
+.p-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* Banner header strt here*/
+.banner-header {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  background-image: url(../ClassProject/images/Header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner-header .navbar {
+  border-radius: 5px;
+  background-color: white !important;
+}
+
+.banner-header .navbar .navbar-brand {
+  color: #060640;
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 35px;
+}
+
+.blue-btn,
+.blue-btn:hover {
+  background-color: #060640;
+  color: white;
+  font-size: 14px;
+  padding: 20px 30px;
+  font-weight: 500;
+}
+.banner-header .right-content {
+  justify-content: end;
+}
+.banner-header .right-content .sign-in {
+  font-weight: 700;
+  color: black !important;
+  font-size: 14px;
+  margin-top: 35px;
+  margin-right: 15px;
+}
+.top-banner {
+  padding-top: 39px;
+}
+
+.top-banner h1 {
+  padding-top: 39px;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 65px;
+  padding-top: 90px;
+  margin-bottom: 18px;
+}
+.top-banner .text-img {
+  position: relative;
+
+}
+
+.top-banner .text-img-h1 {
+  position: absolute;
+  margin-top: -4px;
+  margin-left: 7px;
+  
+}
+
+.banner-header .top-banner .banner-btn {
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 67px;
+}
+
+.banner-header .top-banner .banner-btn .get-strt {
+  margin-right: 30px;
+}
+
+.banner-header .top-banner .testimonial-box span {
+  font-weight: bold;
+}
+
+.banner-header .top-banner .testimonial-box {
+  background-color: white;
+  padding: 21px 23px;
+
+}
+
+.banner-header .top-banner .testimonial-box .testimonial-icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-header .top-banner .testimonial-box .testimonial-icon .rating-star {
+  display: flex;
+  align-items: center;
+}
+
+.banner-header .top-banner .testimonial-box p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: mixed;
+}
+
+/* Banner header end here*/
+
+/* vedio modal strt here */
+#vediomodal {
+  margin-top: 80px;
+
+}
+
+#vediomodal .modal-footer .btn {
+  background-color: #060640;
+  color: white;
+}
+
+/* vedio modal strt here */
+
+
+/* how its work strt here*/
+.how-it-work .section-top-text {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.how-it-work .first-text-row {
+  justify-content: center;
+}
+
+.how-it-work .first-text-row .section-top-text .text-img .text-img-h1 {
+  margin-left: 28px;
+}
+.how-it-work .text-img {
+  position: relative;
+  margin-left: 5px;
+
+}
+
+.how-it-work .text-img-h1 {
+  position: absolute;
+  margin-top: -6px;
+}
+
+.how-it-work .card {
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+  border: none !important;
+}
+
+.how-it-work .card img {
+  background-color: #ECF9FF;
+  height: 70px;
+  width: 70px;
+  padding: 12px;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left: 30px;
+
+}
+
+.how-it-work .card h2 {
+  margin-top: 50px;
+  margin-left: 30px;
+  line-height: 34px;
+  margin-bottom: 10px;
+}
+
+.how-it-work .card p {
+  margin-left: 30px;
+}
+
+.how-it-work .work-banner {
+  margin-top: 110px;
+}
+
+.how-it-work .work-banner .work-banner-top-text {
+  margin-top: 94px;
+  margin-bottom: 40px;
+}
+
+.how-it-work .work-banner .work-side-icon {
+  display: flex;
+  margin-top: 30px;
+}
+
+.how-it-work .work-banner .work-side-icon img {
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  border-radius: 8px;
+  margin-right: 25px;
+  background-color: #ECF9FF;
+}
+
+/* how its work end here*/
+
+/* popular package strat here*/
+.popular-package {
+ background-image: url(../ClassProject/images/Header.jpg);
+ background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.popular-package .text-img {
+  position: relative;
+  margin-left: 5px;
+
+}
+
+.popular-package .text-img-h1 {
+  position: absolute;
+  margin-top: -7px;
+  margin-left: 62px;
+  
+}
+.popular-package .popular-heading-icon{
+  margin-bottom: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.popular-package .popular-carousal-icon{
+  background-color: #ffff;
+  padding: 8px;
+  border-radius: 8px;
+}
+.carusal-icon{
+  padding: 13px;
+  border-radius: 8px;
+}
+.popular-package .popular-heading-icon .carusal-icon:hover{
+  background-color: #00E5CC;
+  color: white;
+  
+}
+.next-btn{
+  margin-left: -3px;
+}
+.popular-package .card {
+  background-color: #ECF9FF;
+  border: none;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid white !important;
+  border: white;
+}
+
+.popular-package .card:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.popular-package .card h3 {
+  margin-top: 20px;
+  margin-left: 16px;
+  margin-bottom: 15px;
+}
+
+.popular-package .card .large-image {
+  padding: 16px;
+}
+
+.popular-package .card .short-image {
+  display: flex;
+  margin-left: 16px;
+  height: 36px;
+
+}
+
+.popular-package .card .short-img-box {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.popular-package .card .short-img-box a {
+  color: #00E5CC !important;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 15px;
+}
+
+.popular-package .card p {
+  font-size: 14px;
+
+
+}
+
+/* popular package end here*/
+
+/* global promotion strt here*/
+.global-promotion .global-promotion-top-row {
+  justify-content: center;
+}
+.global-promotion .text-img {
+  position: relative;
+  margin-left: 5px;
+
+}
+
+.global-promotion .text-img-h1 {
+  position: absolute;
+  margin-top: -7px;
+  margin-left: 5px;
+  
+}
+
+.global-promotion .global-promotion-top-row .global-promotion-top-text {
+  text-align: center;
+}
+
+.global-promotion .map-img {
+  margin-top: 70px;
+}
+
+
+/* subscribe section strt here*/
+.subscribe {
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+.subscribe .text-img {
+  position: relative;
+  font-size: 45px;
+  font-weight: 700;
+  margin-left: 5px;
+  margin-bottom: 12px;
+
+}
+
+.subscribe .text-img-h1 {
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 3px;
+  flex-wrap: wrap;
+}
+
+.subscribe .container {
+  background-image: url(../ClassProject/images/Header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.subscribe .subscribe-heading{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+@media screen and (max-width:550px) {
+  .subscribe .text-img{
+    margin-top: 9px;
+  }
+}
+
+.subscribe .subscribe-left-section {
+  margin-top: 60px;
+}
+
+.subscribe .subscribe-left-section {
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+.email-part{
+  background-color: white;
+  align-items: center;
+  display: flex;
+  padding: 7px;
+  border-radius: 4px;
+  margin-bottom: 60px;
+}
+input#email{
+  border: none;
+  outline: none;
+}
+input#email:focus{
+  box-shadow: none;
+}
+
+.subscribe-img {
+  position: absolute;
+  bottom: 0;
+  right: 36px;
+
+}
+@media screen and (max-width:1199px) {
+   .subscribe-img{
+    display: none;
+   }
+}
+
+/* subscribe section end here*/
+
+/* global promotion end here*/
+
+
+/* footter strt here*/
+
+footer {
+  background-color: #060640;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+footer .footer-row{
+  justify-content: space-between;
+}
+
+footer h5 {
+  font-size: 18px;
+  color: white;
+}
+
+footer li a {
+  font-size: 14px;
+  color: #828297;
+
+}
+footer li a:hover{
+color: #00E5CC;
+}
+
+footer .fa-brands {
+  background-color: #060640;
+  margin-left: 5px;
+  height: 30px;
+  width: 30px;
+  border: 1px solid;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer-row .twitter{
+  border-color: #00E5CC;
+}
+
+.footer-bottom {
+  background-color: #000020;
+}
+footer .footer-row .second-row{
+  margin-top: 25px;
+}
+
+footer a {
+  color: white;
+}
+.footer-bottom .footer-row{
+  justify-content: space-between;
+}
+
+@media screen and (max-width:600px) {
+footer .footer-row{
+    justify-content: unset;
+  }
+  .footer-bottom .footer-row{
+    margin-right: 10px;
+  }
+}
+/* footter end here*/
+
