@@ -66,7 +66,7 @@ ol {
 .banner-header {
   padding-top: 50px;
   padding-bottom: 100px;
-  background-image: url(../ClassProject/images/Header.jpg);
+  background-image: url(./images/Header.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -255,7 +255,7 @@ ol {
 
 /* popular package strat here*/
 .popular-package {
- background-image: url(../ClassProject/images/Header.jpg);
+ background-image: url(./images/Header.jpg);
  background-size: cover;
   background-repeat: no-repeat;
 }
@@ -397,7 +397,7 @@ ol {
 }
 
 .subscribe .container {
-  background-image: url(../ClassProject/images/Header.jpg);
+  background-image: url(./images/Header.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
